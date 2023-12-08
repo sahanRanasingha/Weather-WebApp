@@ -14,7 +14,7 @@ import rain_icon from '../Assets/rain.png'
 
 export const WeatherApp = () => {
 
-    let api_key = 'e317fb3452d43a458bce404823d5310e';
+    let api_key = 'ADD YOUR OPENWEATHER MAP API KEY';
 
     const [wicon,setWicon] = useState(cloud_icon);
 
