@@ -1,0 +1,91 @@
+/* WeatherApp.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url(../Assets/rain.jpg);
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  zoom: 125%;
+}
+
+.top_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8ecae6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search_icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.city_input {
+  padding: 10px;
+  border: 1px solid #457b9d;
+  background: #8ecae6;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.weather_image img {
+  width: 150px;
+  height: auto;
+}
+
+.weather-temp {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #023047; 
+}
+
+.weather-location {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #457b9d; 
+}
+
+.data_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.data {
+  text-align: center;
+}
+
+.humidity-precent,
+.wind-rate,
+.text {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #457b9d; 
+}
